@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio website</title>
+    <style>
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    line-height: 1.6;
+}
+.name{
+    height: 100vh;
+    width: 100%;
+    background-image: url('https://wallpapercave.com/wp/wp6402685.jpg');
+    background-size: cover;
+    background-position: center;
+    background-color: black;
+}
+header {
+    background-color: black;
+    color: #fff;
+    padding: 1rem;
+}
+header h1 {
+    font-size: 2rem;
+}
+h2{
+    color: white;
+    font-size: 50px;
+    margin-left: 20px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+nav ul li a:hover{
+    color: #5a5ce1;
+    transition: .4s;
+}
+p{
+    color: white;
+    font-size: 22px;
+    margin-left: 20px;
+}
+footer {
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 1rem;
+}
+span{
+    color: rgb(230, 67, 157);
+}
+h4{
+    font-size: 30px;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <h1 style="font-size: 75px;color: white;">SAHITHI</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#studies">Studies</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <div class="name">
+        <p style="font-size: 75px;color: white;text-align: center">Portfo<span>lio</span></p><br><br><br><br>
+        <p style="font-size: 50px;color: white">Hello,I am Sahithi</p>
+        <p style="font-size: 22px;color: white">I am a student.</p>
+    </div>
+    </section>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am dedicated and motivated student with a passion for web development. Currently pursuing 4th year Btech at ABC college. Eager to apply my knowledge and skills to contribute to web development industry.</p><br><br><br>
+    </section>
+    <section id="studies">
+        <h2>Studies</h2>
+        <p>Pursuing Btech 4th year in ECE branch from ABC college.</p>
+        <p>Completed Intermediate from EFG college.</p>
+        <p>Completed SSC from SHI school.</p><br><br><br>
+    </section>
+    <section id="projects">
+        <h2>Projects</h2>
+        <h4 style="font-size: 35px;color: white;margin-left: 20px">Robotic vehicle controlled through touch screen-based device</h4>
+        <p>This is the incredible final year project for ECE engineering used to design the robotic vehicle that can be utilized to control the android based device. The project also uses a robot, and based on the input here, the touchscreen-based device is utilized.
+            The project also has the use of RF Tx & Rx as well as a microcontroller. The touch screen device is connected at the end of Tx, whereas the microcontroller is connected to the receiver’s end. By utilizing the remote, the motor in any robot can be controlled left, forward, right, and backward to a distance of 200 meters.</p><br><br><br>
+    </section>
+    <section id="skills">
+        <h2>Skills</h2>
+        <p>C language</p>
+        <p>Python</p>
+        <p>Web development(Front End)</p><br><br><br>
+    </section>
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: abcdefghij@example.com</p>
+        <p>Phone: 1234567890</p><br><br><br>
+    </section>
+    <footer>
+        <p style="color: black">&copy; 2023 Sahithi. All rights reserved.</p>
+    </footer>
+</body>
+</html>
